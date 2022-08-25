@@ -1,7 +1,10 @@
-.App {
+.form-data{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.form-data>form{
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
